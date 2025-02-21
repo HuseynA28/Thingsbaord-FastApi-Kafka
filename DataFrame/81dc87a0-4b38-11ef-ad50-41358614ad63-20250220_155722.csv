@@ -1,0 +1,6 @@
+name,id,type,label,customerId
+GKC-C4DD57B6A504,0c4b80a0-9b26-11ec-bcd8-afb5f342d01b,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b
+GKC-C4DD57B6A504-003,0c5062a0-9b26-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,Exhaust2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b
+GKC-C4DD57B6A504-002,0c5544a0-9b26-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,Inlet2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b
+Test Device Daume,6f0cc8d0-ab8d-11ec-bcd8-afb5f342d01b,default,"",4412d9e0-ab8c-11ec-bcd8-afb5f342d01b
+GKC-C4DD57B6A504-016,806bb700-c175-11ec-bcd8-afb5f342d01b,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b
