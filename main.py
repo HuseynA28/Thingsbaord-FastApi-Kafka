@@ -9,10 +9,12 @@ import asyncio
 from auth import oauth2_scheme
 from services.customer import get_customer_info
 from services.device import get_device_details
+from services.telemerty import fetch_telemetry_from_device
 from config import BASE_URL
+from typing import Dict
 
 app = FastAPI()
-
+page_size=10000000,
 class TokenResponse(BaseModel):
     access_token: str
     token_type: str
@@ -81,20 +83,25 @@ async def get_customer_details_endpoint(
     
 @app.get("/Metamorphosis/")
 
-async def send_message(topic: str, message: str):
-    producer = AIOKafkaProducer(bootstrap_servers="localhost:9092")
-    await producer.start()
-    try:
-        await producer.send_and_wait(topic, message.encode('utf-8'))
-    finally:
-        await producer.stop()  # Ensure the producer is closed properly
+async def send_message(
+    token: Annotated[str, Depends(oauth2_scheme)],
+    file_name: str = Query(..., description="Write the name of file  that  you saved"),
+    useStrictDataTypes: bool = Query(False, description="Enables/disables conversion of telemetry values to strings. Set parameter to 'true' in order to disable the conversion."),
+    ):
+    return await fetch_telemetry_from_device(
+    token=token,
+    file_name=file_name,
+    useStrictDataTypes=useStrictDataTypes
 
-@app.get("/Metamorphosis/test")
+)
+    
+    
+# @app.get("/Metamorphosis/test")
 
-async def send_message(topic: str, message: str):
-    producer = AIOKafkaProducer(bootstrap_servers="localhost:9092")
-    await producer.start()
-    try:
-        await producer.send_and_wait(topic, message.encode('utf-8'))
-    finally:
-        await producer.stop()  # Ensure the producer is closed properly
+# async def send_message(topic: str, message: str):
+#     producer = AIOKafkaProducer(bootstrap_servers="localhost:9092")
+#     await producer.start()
+#     try:
+#         await producer.send_and_wait(topic, message.encode('utf-8'))
+#     finally:
+#         await producer.stop()  # Ensure the producer is closed properly
