@@ -64,9 +64,9 @@ async def get_customer_details_endpoint(
     customer_id: str = Query(..., description="Customer id (e.g., 784f394c-42b6-435a-983c-b7beff2784f9)"),
     page_size: int = Query(1000000, description="Maximum number of entities on one page (default: 1000000)"),
     page: int = Query(0, description="Page number starting from 0"),
-    include_customers: bool = Query(True, description="Include customers in the response"),
+    include_customers: bool = Query(True, description="Include customers means that it will act as a parent and retrieve all child devices as well."),
     active: bool = Query(False, description="Filter active devices"),
-    as_child: bool = Query(False, description="Search as child"),
+    as_child: bool = Query(False, description="Search as child means that it will return all child devices of the parent, but NOT the grandparent's devices."),
     save_dataframe: bool = Query(False, description="Save result as CSV")
 ):
     return await get_device_details(
@@ -96,12 +96,12 @@ async def send_message(
 )
     
     
-@app.get("/Metamorphosis/test")
+# @app.get("/Metamorphosis/test")
 
-async def send_message(topic: str, message: str):
-    producer = AIOKafkaProducer(bootstrap_servers="localhost:9092")
-    await producer.start()
-    try:
-        await producer.send_and_wait(topic, message.encode('utf-8'))
-    finally:
-        await producer.stop()  # Ensure the producer is closed properly
+# async def send_message(topic: str, message: str):
+#     producer = AIOKafkaProducer(bootstrap_servers="localhost:9092")
+#     await producer.start()
+#     try:
+#         await producer.send_and_wait(topic, message.encode('utf-8'))
+#     finally:
+#         await producer.stop()  # Ensure the producer is closed properly

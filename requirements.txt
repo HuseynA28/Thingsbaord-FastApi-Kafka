@@ -1,2 +1,8 @@
-urllib
-fastapi
+urllib3
+fastapi[standard]
+aiokafka
+polars
+typing
+pydantic
+httpx
+uvicorn
