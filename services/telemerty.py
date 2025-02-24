@@ -20,6 +20,7 @@ topic = os.getenv("TOPIC", "my_topic")
 # entityId=2206
 # topic="my_topic"
 device_list=[]
+
 async def fetch_telemetry_from_device(file_name:str, useStrictDataTypes:bool, token: str):  
     headers = {"Authorization": f"Bearer {token}"}
     with open(f'/root/main-kafka-main/Datasets/{file_name}', 'r') as file:
@@ -53,6 +54,6 @@ async def fetch_telemetry_from_device(file_name:str, useStrictDataTypes:bool, to
                     await producer.stop()  # Ensure the producer is closed properly
                     
             
-        return f"The telemeries from {device_list} are sent"
+        return f"Telemerty from total {len(device_list)} devices were sent"
 
 
