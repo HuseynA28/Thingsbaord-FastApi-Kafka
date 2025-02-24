@@ -51,7 +51,7 @@ async def fetch_telemetry_from_device(file_name:str, useStrictDataTypes:bool, to
                     await producer.send_and_wait('my_topic', bytes(str(telemetry_data), 'utf-8'))
 
                 finally:
-                    await producer.stop()  # Ensure the producer is closed properly
+                    await producer.stop() 
                     
             
         return f"Telemerty from total {len(device_list)} devices were sent"
