@@ -1,0 +1,372 @@
+customers:
+  - id: epDE
+    title: epDE
+  - id: Demo
+    title: Demo
+  - id: ep neo
+    title: ep neo
+  - id: epIN
+    title: epIN
+  - id: epPT
+    title: epPT
+  - id: epSE
+    title: epSE
+  - id: epUS
+    title: epUS
+  - id: epIT
+    title: epIT
+  - id: epAT
+    title: epAT
+
+  - id: Daume
+    parentId: epDE
+    title: Daume
+  - id: HaustechnikRCP
+    parentId: Daume
+    title: Haustechnik RCP
+
+projects:
+  - id: 5d3f3524-54a2-4742-8c6b-e703dd9a3e9c
+    profile: Project
+    name: Rathaus Center Pankow Retrofit Projekt
+    userGroups:
+    - name: Maintainers
+      userGroupPermission: ProjektMaintainers
+    - name: Users
+      userGroupPermission: ProjektUsers
+    customer: HaustechnikRCP
+    sites:
+      - id: edb869ff-3222-490d-8f2b-e5359bcc8e3a
+        profile: Site
+        name: Rathaus Center Pankow
+        attributes:
+          latitude: 52.56977
+          longitude: 13.40377
+        locations:
+          - id: 378606b1-4ca3-4aa5-8429-41ef2e8e3536
+            profile: Location
+            name: Anlage 08
+            systems:
+              - id: e495fff1-cc83-4c2a-937a-eb3137a1ec9c
+                profile: System
+                name: Abluft Anlage 08
+                devices:
+                  - id: 2f109614-5e0a-4d54-8d09-7e302db152eb
+                    profile: Device
+                    name: GKC-A848FA86D8E4-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 3675891a-7d8d-4012-ab51-56cb12702079
+                    profile: Device
+                    name: GKC-A848FA86D8E4-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: abfd3543-a878-467f-891b-15871bb09c76
+                    profile: Device
+                    name: GKC-A848FA86D8E4-004
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 1ab5f63b-5eb9-4e58-ba4b-919b0921dada
+                    profile: Device
+                    name: GKC-A848FA86D8E4-005
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 08fe71f8-96e0-4e2f-88d8-23a7081407d1
+                    profile: Device
+                    name: GKC-A848FA86D8E4-016
+                    simProfile: AIRQUALITY_SENSOR
+                    deviceProfile: AIRQUALITY_SENSOR
+              - id: 9a297eaf-9249-426d-a9bb-678cdb3c0cd2
+                profile: System
+                name: Zuluft Anlage 08
+                devices:
+                  - id: 4e65a47d-f934-4232-9830-02e974f4a6d3
+                    profile: Device
+                    name: GKC-A848FA86D8E4-006
+                    simProfile: Fan
+                    deviceProfile: FAN
+          - id: 9bff11fc-9d36-4e75-aaa0-28f57c2d4177
+            profile: Location
+            name: Anlage 09
+            systems:
+              - id: 987b5917-e3cb-4eaa-8cde-2a8876d9fd64
+                profile: System
+                name: Abluft Anlage 09
+                devices:
+                  - id: 7e3e8f36-d74e-44dd-a16f-faa979257890
+                    profile: Device
+                    name: GKC-A848FA8784F4-004
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 60a76d48-5a8b-4cb2-9293-cd22951378d2
+                    profile: Device
+                    name: GKC-A848FA8784F4-006
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 5bd63f34-152e-4576-a538-9ede8de8101e
+                    profile: Device
+                    name: GKC-A848FA8784F4-008
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 5d62a4d3-9cd8-4583-9a9e-be47034906e9
+                    profile: Device
+                    name: GKC-A848FA8784F4-009
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 7c73d227-9338-4bd9-b854-527035162909
+                    profile: Device
+                    name: GKC-A848FA8784F4-010
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: eb65c066-22a8-4676-befe-a9382f64b104
+                    profile: Device
+                    name: GKC-A848FA8784F4-011
+                    simProfile: Fan
+                    deviceProfile: FAN
+              - id: 2b4d54b6-3e3f-470e-87f0-673aef1deb0c
+                profile: System
+                name: Zuluft Anlage 09
+                devices:
+                  - id: 331826a7-59a5-408b-af19-6f5650e99027
+                    profile: Device
+                    name: GKC-A848FA8784F4-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 38a1373b-eb84-4aaf-bfda-43af3c2a35c0
+                    profile: Device
+                    name: GKC-A848FA8784F4-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 56f03105-03dc-448c-af71-6ad3391d19e9
+                    profile: Device
+                    name: GKC-A848FA8784F4-005
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 980cc250-1b30-41ca-856b-537152a78966
+                    profile: Device
+                    name: GKC-A848FA8784F4-007
+                    simProfile: Fan
+                    deviceProfile: FAN
+          - id: f42a4bd2-cdbd-4743-bf2a-c0d524d4dac2
+            profile: Location
+            name: Anlage 10
+            systems:
+              - id: a85a2995-268f-466a-8a5a-5a8863c601b2
+                profile: System
+                name: Abluft Anlage 10
+                devices:
+                  - id: 2e175975-7bc0-4bbc-b29b-026769d07805
+                    profile: Device
+                    name: GKC-A848FA870B50-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: bdf6f8fe-337f-4838-851d-97f81b90c611
+                    profile: Device
+                    name: GKC-A848FA870B50-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 0d0048c0-9805-4d73-a679-541c1308d6f8
+                    profile: Device
+                    name: GKC-A848FA870B50-004
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 2a2954b9-bb2b-4f06-a486-d1dc4079434b
+                    profile: Device
+                    name: GKC-A848FA870B50-005
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: efbe588b-3c34-401a-8211-03cfc4c92c35
+                    profile: Device
+                    name: GKC-A848FA870B50-006
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 5d3e431e-0f67-41b6-86df-b881a67c508e
+                    profile: Device
+                    name: GKC-A848FA870B50-007
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: ce1b578e-a472-40dd-be39-cbe5ebd25985
+                    profile: Device
+                    name: GKC-A848FA870B50-008
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 8f4c7151-afe5-4d67-916a-cc739f1cca31
+                    profile: Device
+                    name: GKC-A848FA870B50-016
+                    simProfile: AIRQUALITY_SENSOR
+                    deviceProfile: AIRQUALITY_SENSOR
+              - id: 33b7ab02-08c4-45d9-8956-89d70926a35f
+                profile: System
+                name: Zuluft Anlage 10
+                devices:
+                  - id: 2e15e477-e106-49a2-8a36-cc369c1467eb
+                    profile: Device
+                    name: GKC-A848FA870B50-010
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: bd4119bd-1d18-44a8-a8e9-7f342cbd60bf
+                    profile: Device
+                    name: GKC-A848FA870B50-011
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: ecc3270b-8b58-4f69-8729-eef985194d1a
+                    profile: Device
+                    name: GKC-A848FA870B50-012
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 11bb0150-fa32-419a-9b7c-39e4ec9c1fe9
+                    profile: Device
+                    name: GKC-A848FA870B50-013
+                    simProfile: Fan
+                    deviceProfile: FAN
+          - id: cb6fe64a-18fa-4fcd-bb17-915097706dc4
+            profile: Location
+            name: Anlage 12
+            systems:
+              - id: f6d8f721-a3f7-4bd5-aad9-05c50e208f7d
+                profile: System
+                name: Abluft Anlage 12
+                devices:
+                  - id: d30745c6-d423-4af8-b80d-e33a057039e8
+                    profile: Device
+                    name: GKC-A848FA880220-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 39326fb3-7675-4e2c-a16c-f1915be83480
+                    profile: Device
+                    name: GKC-A848FA880220-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 551fdbbe-ba1a-4cb2-a7e2-3bf2cac6f03c
+                    profile: Device
+                    name: GKC-A848FA880220-005
+                    simProfile: Fan
+                    deviceProfile: FAN
+              - id: 0a54eae2-7fcc-4b0c-a2a5-83717b4cc72e
+                profile: System
+                name: Zuluft Anlage 12
+                devices:
+                  - id: 58b5586a-5519-4def-b548-0646a8b6bf04
+                    profile: Device
+                    name: GKC-A848FA880220-004
+                    simProfile: Fan
+                    deviceProfile: FAN
+          - id: 62ba58e9-bf13-4ae8-bf97-8851ef89d093
+            profile: Location
+            name: Anlage 13
+            systems:
+              - id: 29631e9b-077a-4ea1-b3a8-fd1f58d9d6bc
+                profile: System
+                name: Abluft Anlage 13
+                devices:
+                  - id: 86e49751-229a-4462-825e-df2c5486ae19
+                    profile: Device
+                    name: GKC-A848FA86C458-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+              - id: f41585fd-b399-4336-b0a0-3a67ed7ca4c6
+                profile: System
+                name: Zuluft Anlage 13
+                devices:
+                  - id: eec910b4-fd65-4bd2-9100-466a0adf4e6b
+                    profile: Device
+                    name: GKC-A848FA86C458-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+          - id: 452766ed-d413-44b2-8f3c-e934b6b6c2fe
+            profile: Location
+            name: Anlage 16
+            systems:
+              - id: 83a31b97-925f-412c-8db2-4feed608c7fe
+                profile: System
+                name: Abluft Anlage 16
+                devices:
+                  - id: b5159033-a5cf-43b0-b961-383202f6a1e5
+                    profile: Device
+                    name: GKC-A848FA871D08-002
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 526b6f7b-3f2c-43b1-a612-b091ff83eb3d
+                    profile: Device
+                    name: GKC-A848FA871D08-003
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: be20f110-9720-456f-9335-81a5072c58f3
+                    profile: Device
+                    name: GKC-A848FA871D08-004
+                    simProfile: Fan
+                    deviceProfile: FAN
+                  - id: 96b0a8d3-2921-4c6c-a8f5-fa9f55f52013
+                    profile: Device
+                    name: GKC-A848FA871D08-006
+                    simProfile: Fan
+                    deviceProfile: FAN
+              - id: 8c883fe7-b9ea-43d9-b332-be45bef072d0
+                profile: System
+                name: Zuluft Anlage 16
+                devices:
+                  - id: d212ce42-8fac-4754-9179-aab4b59887f9
+                    profile: Device
+                    name: GKC-A848FA871D08-005
+                    simProfile: Fan
+                    deviceProfile: FAN
+sbfGroups:
+  - id: ABV
+    title: Air Conditioning & Ventilation
+  - id: CLR
+    title: Cleanroom
+  - id: REF
+    title: Refrigeration
+  - id: REN
+    title: Renewables
+  - id: RES
+    title: Residential
+  - id: IND
+    title: Industrial
+  - id: RET
+    title: Retrofit
+  - id: TRA
+    title: Transportation
+userGroupPermissions: 
+  - id: CustmerMaintainers
+    title: Cuostomer Maintainers
+    kind: Customer
+    genericPermissions:
+    - resource: Device
+      operations: 
+      - "Read"
+  - id: CustmerUsers
+    title: Cuostomer Users
+    kind: Customer
+    genericPermissions:
+    - resource: Device
+      operations: 
+      - "Read"
+  - id: ProjectMaintainers
+    title: Project Maintainers
+    kind: Project
+    genericPermissions:
+    - resource: Device
+      operations: 
+      - "Read"
+    groupPermissions:
+    - group:
+        id: "Project"
+        type: "ASSET"
+        owner: "CustomerOfProject"
+      operations:
+        - "Read"
+        - "Write Attributes"
+    - group:
+        id: "Project"
+        type: "DEVICE"
+        owner: "CustomerOfProject"
+      operations:
+        - "Read"
+        - "Write Attributes"
+    - group:
+        id: "Test"
+        type: "DASHBOARD"
+        owner: "Tenant"
+      operations:
+        - "Read"

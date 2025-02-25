@@ -5,7 +5,7 @@ import datetime
 import warnings
 import polars as pl
 from config import BASE_URL, DATAFRAME_OUTPUT_PATH
-
+customerName=[]
 async def get_device_details(
     customer_id: str,
     token: str,
@@ -32,7 +32,7 @@ async def get_device_details(
                     "includeCustomers": include_customers,
                     "active": active
                 }
-                print("Hello from here")
+            
                 response = await client.get(url, headers=headers, params=params)
                 response.raise_for_status()
                 data = response.json()
@@ -46,16 +46,26 @@ async def get_device_details(
                         pl.col("id").struct.field("id").alias("id"),
                         pl.col("customerId").struct.field("id").alias("customerId")
                     ).select(["name", "id", "type", "label", "customerId"])
+                    for customer_id in devices_df["customerId"]:
+                        url_customer = urljoin(BASE_URL, f"/api/customer/{customer_id}/shortInfo")
+                        response_customer_info = await client.get(url_customer, headers=headers, params=params)
+                        response_customer_info.raise_for_status()
+                        data_customer_info = response_customer_info.json()
+                        customerName.append(data_customer_info["title"])
+                        
+                    devices_df = devices_df.with_columns(pl.Series("CustomerName", customerName))
+                    customerName.clear()
+
                     
                     if save_dataframe:
                         now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                         file_path = f"{DATAFRAME_OUTPUT_PATH}{customer_id}-{now}.csv"
                         devices_df.write_csv(file_path)
-                        return f"Data saved to {file_path}"
+                        return f"Data saved to {file_path} and there are total {devices_df.shape} information"
                     
                     return devices_df.to_dicts()
                 except Exception as exc:
-                    warnings.warn("Failed to process device data. Check parameters and data format.")
+                    warnings.warn(f"The data part gives teh error {exc}")
                     raise HTTPException(status_code=500, detail="Error processing device data") from exc
             
             else:
@@ -92,17 +102,27 @@ async def get_device_details(
                             pl.col("id").struct.field("id").alias("id"),
                             pl.col("customerId").struct.field("id").alias("customerId")
                         ).select(["name", "id", "type", "label", "customerId"])
+                        for customer_id in devices_df["customerId"]:
+                            url_customer = urljoin(BASE_URL, f"/api/customer/{customer_id}/shortInfo")
+                            response_customer_info = await client.get(url_customer, headers=headers, params=params)
+                            response_customer_info.raise_for_status()
+                            data_customer_info = response_customer_info.json()
+                            customerName.append(data_customer_info["title"])
+                        devices_df = devices_df.with_columns(pl.Series("CustomerName", customerName))
+                        customerName.clear()
                         
                         if save_dataframe:
                             now = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                             file_path = f"{DATAFRAME_OUTPUT_PATH}{customer_id}-{now}.csv"
                             devices_df.write_csv(file_path)
-                            return f"Data saved to {file_path}"
+                            return f"Data saved to {file_path} and there are total {devices_df.shape} information"
+
+             
                         
                         return devices_df.to_dicts()
                     except Exception as exc:
-                        warnings.warn("Failed to process device data for parent customer.")
-                        raise HTTPException(status_code=500, detail="Error processing device data for parent") from exc
+                        warnings.warn(f"Failed to process device data for parent customer.There is no data look at the raw data {data['data']}")
+                        raise HTTPException(status_code=500, detail=f"Failed to process device data for parent customer.There is no data look at the raw data {data['data']}") from exc
                 else:
                     return f'The customer "{name}" does not have a parent customer.'
         except httpx.HTTPStatusError as exc:
@@ -112,3 +132,5 @@ async def get_device_details(
             ) from exc
         except Exception as exc:
             raise HTTPException(status_code=500, detail=str(exc)) from exc
+customerName.clear()
+                        

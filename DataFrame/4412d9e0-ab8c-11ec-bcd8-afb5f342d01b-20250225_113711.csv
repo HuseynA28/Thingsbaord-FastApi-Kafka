@@ -1,0 +1,66 @@
+name,id,type,label,customerId,CustomerName
+GKC-A848FA86D8E4-002,0571c980-270f-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-08 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-021,074033d0-92c7-11ef-bb66-09a77fdcecde,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4-003,0c7067f0-270f-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-08 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-013,0d876b50-2711-11ee-927a-b9de331472ce,Modbus V6 Fan,ZU-10 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4-004,16a5ee70-270f-11ee-927a-b9de331472ce,Modbus V6 Fan,AB-08 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-012,1c44db00-92c2-11ef-b675-81d50ee23e1f,Modbus V6 Fan,ZU-15 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-011,1c4e9f00-92c2-11ef-b675-81d50ee23e1f,Modbus V6 Fan,ZU-15 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-010,1c566730-92c2-11ef-b675-81d50ee23e1f,Modbus V6 Fan,ZU-15 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-002,25327d90-2710-11ee-927a-b9de331472ce,Modbus V6 Fan,AB-10 Venti 8,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4-005,28d3dcb0-270f-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-08 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86C458,2906b580-4af2-11ed-9a85-43b5866161ae,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-003,322faf90-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-10 Venti 7,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA880220,32ccc230-8beb-11ef-bb66-09a77fdcecde,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4,33724420-9afe-11ec-bcd8-afb5f342d01b,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-002,337c2f30-9afe-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,ZU-09 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-002,3c247f30-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-010,3c8bfa60-9afe-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 5,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-009,3c8f7cd0-9afe-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-008,3c93c290-9afe-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-007,3c974500-9afe-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,ZU-09 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-006,3c9a0420-9afe-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-005,3c9e49e0-9afe-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,ZU-09 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-004,3ca17e30-9afe-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-003,3ca41640-9afe-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,ZU-09 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50,3d3d4ac0-0c2e-11ee-a50f-b5cb373dcb6a,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-004,3fd6b620-2710-11ee-927a-b9de331472ce,Modbus V6 Fan,AB-10 Venti 6,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-003,4010ad80-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-022,406d5930-92c7-11ef-bb66-09a77fdcecde,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-004,4435c620-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4-006,4695f710-270f-11ee-927a-b9de331472ce,Modbus V6 Fan,ZU-08 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-005,48b66c40-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-006,4d30f7e0-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 5,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-007,507f5f90-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 6,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4-016,54711570-2c7f-11ee-863a-01bce6d27c63,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-005,55b3a2a0-2710-11ee-927a-b9de331472ce,Modbus V6 Fan,AB-10 Venti 5,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-008,57aa8c40-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 7,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-009,5b40ab50-92b7-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-15 Venti 8,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-006,63d7a160-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-10 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-016,6587e4c0-2d37-11ee-863a-01bce6d27c63,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86C458-016,6f7bd4b0-4af6-11ed-9a85-43b5866161ae,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86C458-003,6f7fa540-4af6-11ed-9a85-43b5866161ae,Modbus V5.0 Fan,AB-13 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86C458-002,6f81c820-4af6-11ed-9a85-43b5866161ae,Modbus V5.0 Fan,ZU-13 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-007,7076d4e0-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-10 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-013,70d01640-92c6-11ef-bb66-09a77fdcecde,Modbus V6 Fan,ZU-15 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-008,82f30a30-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,AB-10 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA86D8E4,8a60d280-219c-11ee-927a-b9de331472ce,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA880220-002,8a790680-8d42-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-12 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA880220-003,94710ed0-8d42-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-12 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA880220-004,9ac25640-8d42-11ef-bb66-09a77fdcecde,Modbus V6 Fan,ZU-12 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-016,9beb17f0-a5d7-11ec-bcd8-afb5f342d01b,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA880220-005,a1191bf0-8d42-11ef-bb66-09a77fdcecde,Modbus V6 Fan,AB-12 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-009,a432d9a0-2710-11ee-927a-b9de331472ce,Modbus V6 Fan,AB-10 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-016,aa0e79b0-92c6-11ef-bb66-09a77fdcecde,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA87769C-020,b13846d0-92c6-11ef-bb66-09a77fdcecde,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA8784F4-011,bb5e1100-c13e-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-09 Venti 6,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-006,bd1b90c0-c144-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-16 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-016,bded4d00-a5d7-11ec-bcd8-afb5f342d01b,Thermokon,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-010,ce5fd110-2710-11ee-927a-b9de331472ce,Modbus V6 Fan,ZU-10 Venti 4,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08,d03b60f0-8f2f-11ec-bcd8-afb5f342d01b,IntelliGateAIR,,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-005,d0415460-8f2f-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,ZU-16 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-004,d044fde0-8f2f-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-16 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-003,d047bd00-8f2f-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-16 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA871D08-002,d04a2e00-8f2f-11ec-bcd8-afb5f342d01b,Modbus V5.0 Fan,AB-16 Venti 1,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-011,dea1a6c0-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,ZU-10 Venti 3,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
+GKC-A848FA870B50-012,f6d07280-2710-11ee-bc9b-1d7b9ef08863,Modbus V6 Fan,ZU-10 Venti 2,4412d9e0-ab8c-11ec-bcd8-afb5f342d01b,Daume
