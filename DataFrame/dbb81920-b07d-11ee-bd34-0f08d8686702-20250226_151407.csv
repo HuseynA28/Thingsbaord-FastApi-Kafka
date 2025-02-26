@@ -1,0 +1,52 @@
+name,id,type,label,customerId,CustomerName
+3CE90E11861C-001,05b66db0-b6f1-11ef-b931-9dad38df1d1f,Modbus V6 Fan,L3,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+349454032FD4-001,05cff3a0-fe2a-11ee-9283-21d5388cd6ec,Modbus V6 Fan,Mangel,67b9c220-009c-11ef-965a-19074c7a4b59,Comforta AB - Arlandastad SE
+3CE90E11861C-002,0c0bfae0-b6f1-11ef-9681-df1aaf416822,BRAVO,L3,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25E99EB0,0fb689f0-f36d-11ee-b74a-9d551fd2f465,IntelliGateLTE,,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+C049EF21E00C,11530c70-457c-11ed-9a85-43b5866161ae,IntelliGateLTE,,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+C049EF221414,1167f400-457c-11ed-9a85-43b5866161ae,IntelliGateLTE,,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+3CE90E11861C,1409ba10-f573-11ee-b74a-9d551fd2f465,IntelliGateLTE,,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25E86D7C,2aa28f80-b310-11ef-9681-df1aaf416822,IntelliGateLTE,"",08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+58BF25E86D7C-001,33a56260-b310-11ef-b931-9dad38df1d1f,Modbus V6 Fan,2,08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+C049EF2213FC-001,34d2b8d0-981e-11ee-863a-01bce6d27c63,Modbus V6 Fan,1,dbb81920-b07d-11ee-bd34-0f08d8686702,BoKlok Byggsystem AB - Gullringen SE
+C049EF2213FC-002,3a9506b0-981e-11ee-92d0-33963a1aa4c6,BRAVO,Produktion: V1AB-6AB,dbb81920-b07d-11ee-bd34-0f08d8686702,BoKlok Byggsystem AB - Gullringen SE
+58BF25EA9200-001,3bbf5db0-fe2b-11ee-9283-21d5388cd6ec,Modbus V6 Fan,Valsverkssalen,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+4091513115EC,3d1e16c0-f58d-11ee-b74a-9d551fd2f465,IntelliGateLTE,,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25EA9200-002,47201dc0-fe2b-11ee-965a-19074c7a4b59,BRAVO,Valsverkssalen,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+C049EF21D428-001,49796f40-981e-11ee-92d0-33963a1aa4c6,Modbus V6 Fan,Paketbanan,e36ff570-b07d-11ee-a156-4d857d71756b,Bring Parcel AB - Jönköping SE
+58BF25E975F8,4a43d000-f377-11ee-b74a-9d551fd2f465,IntelliGateLTE,,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+C049EF21D428-002,4e2f5630-981e-11ee-92d0-33963a1aa4c6,BRAVO,Paketbanan,e36ff570-b07d-11ee-a156-4d857d71756b,Bring Parcel AB - Jönköping SE
+58BF25EA35C8,596d7910-b310-11ef-9681-df1aaf416822,IntelliGateLTE,"",08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+58BF25EA35C8-001,62ef18e0-b310-11ef-b931-9dad38df1d1f,Modbus V6 Fan,1,08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+58BF25EA35C8-002,6979e6e0-b310-11ef-9681-df1aaf416822,BRAVO,1,08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+5443B2E17B70-001,74f92f40-02f7-11ef-965a-19074c7a4b59,Modbus V6 Fan,Logistik SE,c0faad10-1995-11ef-9159-ed94d19c6787,Anora Sweden Plc - Kungsängen SE
+58BF25EA9200,84a2c310-da67-11ee-97a1-13eb5634dd40,IntelliGateLTE,,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+58BF25E9BB44-001,91eb7260-8af2-11ef-bb66-09a77fdcecde,Modbus V6 Fan,Returen,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+58BF25E9BB44-002,99d979e0-8af2-11ef-bb66-09a77fdcecde,BRAVO,Returen,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+349454032FD4,9aeb39e0-d7ba-11ee-97a1-13eb5634dd40,IntelliGateLTE,,67b9c220-009c-11ef-965a-19074c7a4b59,Comforta AB - Arlandastad SE
+58BF25ECF390-001,a2cff0b0-8af2-11ef-b675-81d50ee23e1f,Modbus V6 Fan,Returen,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+58BF25E9836C,a6bd17c0-f344-11ee-b74a-9d551fd2f465,IntelliGateLTE,,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+58BF25ECF390-002,ad0e50d0-8af2-11ef-b675-81d50ee23e1f,BRAVO,Returen,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+58BF25E9836C-001,b65ef590-8af2-11ef-bb66-09a77fdcecde,Modbus V6 Fan,Returen,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+349454032FD4-010,b7d987d0-b709-11ef-b931-9dad38df1d1f,SEN5X,Mangel,67b9c220-009c-11ef-965a-19074c7a4b59,Comforta AB - Arlandastad SE
+58BF25E97994,bf4203e0-f372-11ee-b74a-9d551fd2f465,IntelliGateLTE,,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25E99EB0-001,c49eea50-b6f0-11ef-b931-9dad38df1d1f,Modbus V6 Fan,Tolvan,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+349454032FD4-011,c6682f40-b709-11ef-b931-9dad38df1d1f,Noise_sensor,Mangel,67b9c220-009c-11ef-965a-19074c7a4b59,Comforta AB - Arlandastad SE
+58BF25E99EB0-002,cbaf3c00-b6f0-11ef-9681-df1aaf416822,BRAVO,Tolvan,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25E86D7C-010,d0de4aa0-e21e-11ef-9681-df1aaf416822,SEN5X,2,08eaf0a0-b313-11ef-9681-df1aaf416822,Press Kogyo Sweden AB - Oskarshamn SE
+58BF25E975F8-001,d4b25d00-b6f0-11ef-b931-9dad38df1d1f,Modbus V6 Fan,L2,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+5443B2E17B70-002,da512660-0872-11ef-9159-ed94d19c6787,BRAVO,Logistik SE,c0faad10-1995-11ef-9159-ed94d19c6787,Anora Sweden Plc - Kungsängen SE
+58BF25E975F8-002,dc82a350-b6f0-11ef-9681-df1aaf416822,BRAVO,L2,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+C049EF21D428,e3af7bc0-c16c-11ec-bcd8-afb5f342d01b,IntelliGateLTE,,e36ff570-b07d-11ee-a156-4d857d71756b,Bring Parcel AB - Jönköping SE
+C049EF21E00C-001,e4d29230-4b31-11ee-863a-01bce6d27c63,Modbus V6 Fan,Drageringen,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+C049EF21E00C-002,e4dec730-4b31-11ee-863a-01bce6d27c63,BRAVO,Drageringen,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+58BF25E97994-001,e60358c0-b6f0-11ef-b931-9dad38df1d1f,Modbus V6 Fan,L1,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25ECF390,ea4dad80-f2ac-11ee-b74a-9d551fd2f465,IntelliGateLTE,,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+58BF25E97994-002,ebb88740-b6f0-11ef-b931-9dad38df1d1f,BRAVO,L1,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+58BF25E9BB44,eec39410-f342-11ee-b74a-9d551fd2f465,IntelliGateLTE,,11ea7590-8afa-11ef-b675-81d50ee23e1f,H&M Lager - Borås SE
+5443B2E17B70,f1fc34a0-da3a-11ee-97a1-13eb5634dd40,IntelliGateLTE,,c0faad10-1995-11ef-9159-ed94d19c6787,Anora Sweden Plc - Kungsängen SE
+C049EF221414-001,f42e4da0-4b31-11ee-863a-01bce6d27c63,Modbus V6 Fan,Fantasia rummet,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+C049EF221414-002,f437ea90-4b31-11ee-863a-01bce6d27c63,BRAVO,Fantasia rummet,552b1e70-0eb6-11ee-8cd1-c12f6d511a50,ASM Foods - Mjölby SE
+4091513115EC-001,f5bff8e0-b6f0-11ef-b931-9dad38df1d1f,Modbus V6 Fan,SSK,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+4091513115EC-002,fc1cb200-b6f0-11ef-9681-df1aaf416822,BRAVO,SSK,116c9fc0-b6fc-11ef-9681-df1aaf416822,Saint-Gobain Sweden AB - Tullinge SE
+C049EF2213FC,fe2f7200-c623-11ec-9478-3d0099b159f5,IntelliGateLTE,,dbb81920-b07d-11ee-bd34-0f08d8686702,BoKlok Byggsystem AB - Gullringen SE

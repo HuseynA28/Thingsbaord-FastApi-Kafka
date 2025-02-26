@@ -121,8 +121,8 @@ async def get_device_details(
                         
                         return devices_df.to_dicts()
                     except Exception as exc:
-                        warnings.warn(f"Failed to process device data for parent customer.There is no data look at the raw data {data['data']}")
-                        raise HTTPException(status_code=500, detail=f"Failed to process device data for parent customer.There is no data look at the raw data {data['data']}") from exc
+                        warnings.warn(f"Failed to process device data for the parent customer. There is no data available. Check the raw data: {data['data']}. The reason could be that includeCustomers is set to False, preventing the parent from accessing devices from its children. If you choose asChild = True, ensure that includeCustomers is also set to True.")
+                        raise HTTPException(status_code=500, detail=f"Failed to process device data for the parent customer. There is no data available. Check the raw data: {data['data']}. The reason could be that includeCustomers is set to False, preventing the parent from accessing devices from its children. If you choose asChild = True, ensure that includeCustomers is also set to True.") from exc
                 else:
                     return f'The customer "{name}" does not have a parent customer.'
         except httpx.HTTPStatusError as exc:
