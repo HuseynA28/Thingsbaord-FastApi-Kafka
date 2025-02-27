@@ -1,39 +1,13 @@
-0571c980-270f-11ee-bc9b-1d7b9ef08863
-0c7067f0-270f-11ee-bc9b-1d7b9ef08863
-0d876b50-2711-11ee-927a-b9de331472ce
-16a5ee70-270f-11ee-927a-b9de331472ce
-25327d90-2710-11ee-927a-b9de331472ce
-28d3dcb0-270f-11ee-bc9b-1d7b9ef08863
-322faf90-2710-11ee-bc9b-1d7b9ef08863
-337c2f30-9afe-11ec-bcd8-afb5f342d01b
-3c8bfa60-9afe-11ec-bcd8-afb5f342d01b
-3c8f7cd0-9afe-11ec-bcd8-afb5f342d01b
-3c93c290-9afe-11ec-bcd8-afb5f342d01b
-3c974500-9afe-11ec-bcd8-afb5f342d01b
-3c9a0420-9afe-11ec-bcd8-afb5f342d01b
-3c9e49e0-9afe-11ec-bcd8-afb5f342d01b
-3ca17e30-9afe-11ec-bcd8-afb5f342d01b
-3ca41640-9afe-11ec-bcd8-afb5f342d01b
-3fd6b620-2710-11ee-927a-b9de331472ce
-4695f710-270f-11ee-927a-b9de331472ce
-54711570-2c7f-11ee-863a-01bce6d27c63
-55b3a2a0-2710-11ee-927a-b9de331472ce
-63d7a160-2710-11ee-bc9b-1d7b9ef08863
-6587e4c0-2d37-11ee-863a-01bce6d27c63
-6f7fa540-4af6-11ed-9a85-43b5866161ae
-6f81c820-4af6-11ed-9a85-43b5866161ae
-7076d4e0-2710-11ee-bc9b-1d7b9ef08863
-82f30a30-2710-11ee-bc9b-1d7b9ef08863
-8a790680-8d42-11ef-bb66-09a77fdcecde
-94710ed0-8d42-11ef-bb66-09a77fdcecde
-9ac25640-8d42-11ef-bb66-09a77fdcecde
-a1191bf0-8d42-11ef-bb66-09a77fdcecde
-bb5e1100-c13e-11ec-bcd8-afb5f342d01b
-bd1b90c0-c144-11ec-bcd8-afb5f342d01b
-ce5fd110-2710-11ee-927a-b9de331472ce
-d0415460-8f2f-11ec-bcd8-afb5f342d01b
-d044fde0-8f2f-11ec-bcd8-afb5f342d01b
-d047bd00-8f2f-11ec-bcd8-afb5f342d01b
-d04a2e00-8f2f-11ec-bcd8-afb5f342d01b
-dea1a6c0-2710-11ee-bc9b-1d7b9ef08863
-f6d07280-2710-11ee-bc9b-1d7b9ef08863
+,name,id,type,label,customerId,CustomerName
+1,58BF25EA1554-012,03284830-91e3-11ef-bb66-09a77fdcecde,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+2,58BF25E9756C-010,0697e0e0-b79d-11ef-9681-df1aaf416822,SEN5X,Cosanum 11,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+18,5443B2E17B4C-010,20001700-b79d-11ef-9681-df1aaf416822,SEN5X,Cosanum 12,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+43,EC62604C580C-010,38e79d50-506b-11ee-863a-01bce6d27c63,SEN5X,Cosanum 13,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+48,58BF25EA1554-010,3dfd8810-910e-11ef-bb66-09a77fdcecde,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+50,EC62604C5C80-100,46f02db0-62a7-11ee-863a-01bce6d27c63,SEN5X,Oerlikon Particle Counter,0dd51000-c039-11ee-9aac-8b87a7da80ca,Oerlikon Balzter - Brügg CH
+87,11004100001234-010,b20a4ff0-1dae-11ef-909a-0d0a641402f0,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+105,58BF25EA1554-013,e0b4c3a0-91f6-11ef-b675-81d50ee23e1f,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+106,58BF25E96CA8-010,e4a16ba0-b79c-11ef-b931-9dad38df1d1f,SEN5X,Cosanum 10,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+107,58BF25EA1554-014,eaf0b2c0-91f6-11ef-bb66-09a77fdcecde,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+108,58BF25ECA440-010,f3aca190-bd38-11ef-b931-9dad38df1d1f,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+110,58BF25EA1554-011,fb028ee0-91e2-11ef-bb66-09a77fdcecde,SEN5X,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor

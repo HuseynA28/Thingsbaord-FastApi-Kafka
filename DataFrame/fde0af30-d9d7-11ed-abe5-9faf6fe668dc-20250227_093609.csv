@@ -1,0 +1,116 @@
+name,id,type,label,customerId,CustomerName
+58BF25EA6390-002,004a38c0-27db-11ef-9159-ed94d19c6787,BRAVO,Saica PM 2,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+58BF25EA1554-012,03284830-91e3-11ef-bb66-09a77fdcecde,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25E9756C-010,0697e0e0-b79d-11ef-9681-df1aaf416822,SEN5X,Cosanum 11,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+5443B2E17B4C,0aff1d00-f589-11ee-b74a-9d551fd2f465,IntelliGateLTE,,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+58BF25EBA0F0-004,0b2bea80-7fcf-11ef-bb66-09a77fdcecde,Premasgard_7000,Cone,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25E89CEC,0f12ac50-9978-11ec-bcd8-afb5f342d01b,IntelliGateLTE,1042,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E89CEC-001,0f1851a0-9978-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,1042,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E89CEC-003,0f1e4510-9978-11ec-bcd8-afb5f342d01b,PREMASGARD,Systemtryck,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+C049EF232008-004,1153e1e0-82a8-11ed-9990-0560ab5c95df,PREMASGARD,Flow,da385a00-b47a-11ee-97a1-13eb5634dd40,R&D Novelis
+58BF25EBA0F0-001,11778540-7fd2-11ef-bb66-09a77fdcecde,Modbus V6 Fan,(0913),fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+EC62604C580C,11aaa250-457c-11ed-9a85-43b5866161ae,IntelliGateLTE,CARA DT,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+58BF25E8A6E8,128d2c10-8331-11eb-99b2-1749f3975254,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E96CA8,12927af0-f645-11ee-b74a-9d551fd2f465,IntelliGateLTE,,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+58BF25E96F6C-002,13083200-27db-11ef-9159-ed94d19c6787,BRAVO,Saica PM 1,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+3CE90E117AE0,162f3aa0-e537-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+409151313484,176999c0-9641-11ec-bcd8-afb5f342d01b,IntelliGateLTE,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+409151313484-001,176ddf80-9641-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+409151313484-003,1773fa00-9641-11ec-bcd8-afb5f342d01b,PREMASGARD,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+5443B2E17B4C-010,20001700-b79d-11ef-9681-df1aaf416822,SEN5X,Cosanum 12,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+8C4B140B9C78-001,23ce22f0-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA3 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA34F4-001,24169da0-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA3 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E8A6E8-001,2454b810-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA6 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA1CB0-001,248760d0-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA3 MAX,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+24D7EBBD44B8-001,248abc30-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA3 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+24D7EBBD4A80-001,2490d6b0-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA6 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+3CE90E1171E8-001,24c1d1c0-a1d5-11eb-815e-ebaaf988cf91,Modbus V6 Fan,CA3 MAX,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+8C4B140B9C78-002,24dbc260-a1d5-11eb-815e-ebaaf988cf91,BRAVO,Konferensen,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA34F4-002,2521a501-a1d5-11eb-815e-ebaaf988cf91,BRAVO,Refurbished - Sensor 1,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA2694-002,2539e7f0-a1d5-11eb-815e-ebaaf988cf91,BRAVO,CARA PM - 5146,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25EA1CB0-002,25841050-a1d5-11eb-815e-ebaaf988cf91,BRAVO,Clogging - Before filters,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+24D7EBBD44B8-002,258ce9f0-a1d5-11eb-815e-ebaaf988cf91,BRAVO,Produktion - Kantpressen,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+24D7EBBD4A80-002,25a79de0-a1d5-11eb-815e-ebaaf988cf91,BRAVO,A6 - Production - Assembly Area,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA1CB0-003,2676fbd0-a1d5-11eb-815e-ebaaf988cf91,PREMASGARD,SQ2 - 3,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+3CE90E1171E8,2d2e6950-832f-11eb-99b2-1749f3975254,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E80028,2dee1ba0-e539-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+5443B2E178D0,2eef5470-e538-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25EA71AC-003,2ff10360-27db-11ef-9159-ed94d19c6787,Premasgard_7000,Saica 2,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+58BF25E89CEC-004,33c9ec90-fc4f-11ec-8f93-ddff7dbc2bc8,PREMASGARD,Flow,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25EA1CB0,34f20950-86fc-11eb-99b2-1749f3975254,IntelliGateLTE,5223,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+C049EF232008,35646560-9978-11ec-bcd8-afb5f342d01b,IntelliGateLTE,R&D Zone 1,da385a00-b47a-11ee-97a1-13eb5634dd40,R&D Novelis
+C049EF232008-001,3567c0c0-9978-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,R&D 1,da385a00-b47a-11ee-97a1-13eb5634dd40,R&D Novelis
+C049EF232008-003,356d17f0-9978-11ec-bcd8-afb5f342d01b,PREMASGARD,System,da385a00-b47a-11ee-97a1-13eb5634dd40,R&D Novelis
+34945402415C,385b52c0-e790-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+EC62604C580C-010,38e79d50-506b-11ee-863a-01bce6d27c63,SEN5X,Cosanum 13,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+58BF25EA5044-002,3b56b160-3450-11ef-a6a7-c778c0110ed3,BRAVO,Kantknekker,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+8C4B140B9C78,3c314a80-870d-11eb-99b2-1749f3975254,IntelliGateLTE,CA3 Max,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+24D7EBBD5068-004,3c8eca10-fc65-11ec-8f93-ddff7dbc2bc8,PREMASGARD,Flow,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E9A788-002,3d0c3220-3467-11ef-a6a7-c778c0110ed3,BRAVO,Waha sag,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25EA1554-010,3dfd8810-910e-11ef-bb66-09a77fdcecde,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25E882B8,43249640-e86b-11ee-97a1-13eb5634dd40,IntelliGateLTE,,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+EC62604C5C80-100,46f02db0-62a7-11ee-863a-01bce6d27c63,SEN5X,Oerlikon Particle Counter,0dd51000-c039-11ee-9aac-8b87a7da80ca,Oerlikon Balzter - Brügg CH
+24D7EBBD5068,47c91b10-9978-11ec-bcd8-afb5f342d01b,IntelliGateLTE,1015,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+24D7EBBD5068-001,47cc9d80-9978-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,1015,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+24D7EBBD5068-003,47d1a690-9978-11ec-bcd8-afb5f342d01b,PREMASGARD,Systemtryck,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E8AB44-001,498b46e0-962a-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,CA3 Retrofit,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA1A70,4b3dabd0-e53e-11ee-97a1-13eb5634dd40,IntelliGateLTE,,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+34945402415C-002,4b5e6cd0-3467-11ef-ad50-41358614ad63,BRAVO,Slissesag,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25E9756C,4bf523c0-f58b-11ee-b74a-9d551fd2f465,IntelliGateLTE,CARA DT,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+3CE90E117AE0-002,4c8b4b80-3450-11ef-a6a7-c778c0110ed3,BRAVO,Belegningssag,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25E87CC4,4d008e10-9978-11ec-bcd8-afb5f342d01b,IntelliGateLTE,1008,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E87CC4-001,4d05e540-9978-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,1008,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E87CC4-003,4d0bffc0-9978-11ec-bcd8-afb5f342d01b,PREMASGARD,Systemtryck,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25EC9D94,52d0b960-ddf8-11ea-a1ea-2318b9131b8f,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA25EC-003,54d866f0-27ef-11ef-9159-ed94d19c6787,Premasgard_7000,Saica 1,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+5443B2E178D0-002,5ab516a0-3450-11ef-ad50-41358614ad63,BRAVO,Poleringsmaskin,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25E9A788,5d974da0-e862-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25EA1A70-001,64528e70-8155-11ef-bb66-09a77fdcecde,Modbus V6 Fan,(1091),fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+24D7EBBD6A40-004,64b78d20-fba1-11ec-8f93-ddff7dbc2bc8,PREMASGARD,Flow,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25E80028-002,6ad2e990-3450-11ef-ad50-41358614ad63,BRAVO,Flissag,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25E89DA8,73a47010-e62c-11ee-97a1-13eb5634dd40,IntelliGateLTE,,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25EBA0F0,77fd1140-e62b-11ee-97a1-13eb5634dd40,IntelliGateLTE,,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25E87CC4-004,7e729e30-fba1-11ec-8f93-ddff7dbc2bc8,PREMASGARD,Flow,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25EC9D94-004,81265960-aed3-11ed-9188-71dcc7f44f0f,PREMASGARD,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E882B8-001,82199890-815a-11ef-b675-81d50ee23e1f,Modbus V6 Fan,(5066),fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25EA1A70-003,83a2e9f0-8155-11ef-bb66-09a77fdcecde,Premasgard_7000,system,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25E8AB44,90797a50-e905-11ea-9397-a961d5e34d6e,IntelliGateLTE,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+82015100001080,909c5d50-9641-11ec-bcd8-afb5f342d01b,IntelliGateLTE,"",19a5ddc0-ce79-11ef-9681-df1aaf416822,epNeo - Dortmund DE
+82015100001080-001,90a07c00-9641-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,Dortmund test device,19a5ddc0-ce79-11ef-9681-df1aaf416822,epNeo - Dortmund DE
+58BF25EA1A70-004,92870460-8155-11ef-bb66-09a77fdcecde,Premasgard_7000,Cone,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25EA34F4-005,9464f640-b67b-11ec-bcd8-afb5f342d01b,BRAVO,Refurbished - Sensor 2,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E89DA8-001,9b4c2340-815b-11ef-bb66-09a77fdcecde,Modbus V6 Fan,(5068),fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+409151313484-004,9df0f030-ac69-11ed-9188-71dcc7f44f0f,PREMASGARD,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E89DA8-003,a6f3fe70-815b-11ef-b675-81d50ee23e1f,Premasgard_7000,System,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+58BF25EA5044,a7f91390-e535-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,6d31f850-3489-11ef-ad50-41358614ad63,Alta
+58BF25EA34F4,a93ed180-81a7-11eb-99b2-1749f3975254,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA6390,aa05b810-e6d8-11ee-97a1-13eb5634dd40,IntelliGateLTE,Saica PM 2,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+58BF25E89DA8-004,b17fbb40-815b-11ef-b675-81d50ee23e1f,Premasgard_7000,Cone,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+11004100001234-010,b20a4ff0-1dae-11ef-909a-0d0a641402f0,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+EC62604C5C80,b2725240-9641-11ec-bcd8-afb5f342d01b,IntelliGateLTE,Oerlikon Particle Counter,0dd51000-c039-11ee-9aac-8b87a7da80ca,Oerlikon Balzter - Brügg CH
+58BF25EA1CB0-005,b28c49a0-5e6c-11ec-9110-c758097501fa,BRAVO,Clogging - After filters,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+58BF25EA1CB0-004,b292d950-5e6c-11ec-9110-c758097501fa,PREMASGARD,SQ2 - 4,e21b4fa0-4bc3-11ed-9a85-43b5866161ae,Project Clogging
+58BF25EA71AC,b4fff8b0-e6d9-11ee-97a1-13eb5634dd40,IntelliGateLTE,Saica PA 2,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+24D7EBBD44B8,ba5204b0-86fc-11eb-99b2-1749f3975254,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25ECA440,c0acc5c0-e540-11ee-97a1-13eb5634dd40,IntelliGateLTE,,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25E882B8-003,c4321130-815a-11ef-bb66-09a77fdcecde,Premasgard_7000,System,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+C049EF25CB80,c4da34f0-d2e2-11ed-b074-d1a6668d4099,IntelliGateLTE,,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA2694,c50d5820-833a-11eb-99b2-1749f3975254,IntelliGateLTE,CARA DT,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+11004100001234,ca5a59f0-94e3-11ee-92d0-33963a1aa4c6,IntelliGateLTE,CARA DT,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25E882B8-004,cfbacba0-815a-11ef-b675-81d50ee23e1f,Premasgard_7000,Cone,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D
+C049EF25CB80-011,cfdda030-168e-11ef-9159-ed94d19c6787,Noise_sensor,Filtermaskin,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EC9D94-001,d2187fe0-de12-11ea-a1ea-2318b9131b8f,Modbus V6 Fan,CA12 Max,0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA25EC,d271b6e0-e6de-11ee-97a1-13eb5634dd40,IntelliGateLTE,Saica PA 1,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+58BF25EC9D94-003,d2a57da0-de12-11ea-a1ea-2318b9131b8f,PREMASGARD,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25E96F6C,dd9d56d0-e6d6-11ee-97a1-13eb5634dd40,IntelliGateLTE,Saica PM 1,30832ed0-2d4d-11ef-ad50-41358614ad63,Saica Pack -  UK
+58BF25EA1554,dfff9120-e6d3-11ee-97a1-13eb5634dd40,IntelliGateLTE,CARA DT,397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25EA1554-013,e0b4c3a0-91f6-11ef-b675-81d50ee23e1f,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25E96CA8-010,e4a16ba0-b79c-11ef-b931-9dad38df1d1f,SEN5X,Cosanum 10,8d8537a0-4675-11ee-bc70-33963a1aa4c6,Cosanum - Zurich CH
+58BF25EA1554-014,eaf0b2c0-91f6-11ef-bb66-09a77fdcecde,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+58BF25ECA440-010,f3aca190-bd38-11ef-b931-9dad38df1d1f,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+24D7EBBD4A80,fae96460-8192-11eb-99b2-1749f3975254,IntelliGateLTE,"",0a1c7950-4bb7-11ed-9a85-43b5866161ae,Zehnder Group - PMO SE
+58BF25EA1554-011,fb028ee0-91e2-11ef-bb66-09a77fdcecde,SEN5X,"",397eac60-1daf-11ef-9159-ed94d19c6787,Zehnder Zensor
+24D7EBBD6A40,fd64c380-9977-11ec-bcd8-afb5f342d01b,IntelliGateLTE,1041,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+24D7EBBD6A40-001,fd67d0c0-9977-11ec-bcd8-afb5f342d01b,Modbus V6 Fan,1041,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+24D7EBBD6A40-003,fd6cb2c0-9977-11ec-bcd8-afb5f342d01b,PREMASGARD,Systemtryck,70e0a5b0-4bc3-11ed-9a85-43b5866161ae,Scandinavian Cellulose Production - Tbro SE
+58BF25EBA0F0-003,ffba88a0-7fce-11ef-bb66-09a77fdcecde,Premasgard_7000,System,fde0af30-d9d7-11ed-abe5-9faf6fe668dc,Motala Hissar - R&D

@@ -6,3 +6,5 @@ typing
 pydantic
 httpx
 uvicorn
+aiofiles
+pyyaml

@@ -10,6 +10,7 @@ from auth import oauth2_scheme
 from services.customer import get_customer_info
 from services.device import get_device_details
 from services.telemerty import fetch_telemetry_from_device
+from services.telemerty_test import fetch_telemetry_from_device_test
 from config import BASE_URL
 from typing import Dict
 
@@ -94,7 +95,20 @@ async def send_message(
     useStrictDataTypes=useStrictDataTypes
 
 )
-    
+
+@app.get("/Metamorphosis/testMe")
+
+async def send_message(
+    token: Annotated[str, Depends(oauth2_scheme)],
+    file_name: str = Query(..., description="Write the name of file  that  you saved"),
+    useStrictDataTypes: bool = Query(False, description="Enables/disables conversion of telemetry values to strings. Set parameter to 'true' in order to disable the conversion."),
+    ):
+    return await fetch_telemetry_from_device_test(
+    token=token,
+    file_name=file_name,
+    useStrictDataTypes=useStrictDataTypes
+
+) 
     
 # @app.get("/Metamorphosis/test")
 

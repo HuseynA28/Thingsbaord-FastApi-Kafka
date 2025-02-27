@@ -2,8 +2,8 @@
 {"deviceid":"EC62604C5C80",
 "messageid":211,
 "datainterval(s)":60,
-"statusinterval(s)":60,
-"timestamp":1740488820,
+"statusinterval4(s)":60,
+"timestamp":170488820,
 "device":[
 	{"slaveadd":100,"template":"SEN5X","modbusmap":
 	[
