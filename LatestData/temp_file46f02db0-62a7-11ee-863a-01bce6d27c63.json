@@ -1,0 +1,212 @@
+{
+    "polling": {
+        "deviceid": "EC62604C5C80",
+        "messageid": 211,
+        "datainterval(s)": 60,
+        "statusinterval4(s)": 60,
+        "timestamp": 170488820,
+        "device": [
+            {
+                "slaveadd": "100",
+                "template": "SEN5X",
+                "modbusmap": [
+                    {
+                        "addr": "0x0000",
+                        "type": 1,
+                        "val": "10"
+                    },
+                    {
+                        "addr": "0x0001",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0002",
+                        "type": 1,
+                        "val": "29230"
+                    },
+                    {
+                        "addr": "0x0100",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0101",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0102",
+                        "type": 1,
+                        "val": "3"
+                    },
+                    {
+                        "addr": "0x0103",
+                        "type": 1,
+                        "val": "3"
+                    },
+                    {
+                        "addr": "0x0104",
+                        "type": 1,
+                        "val": "3"
+                    },
+                    {
+                        "addr": "0x0105",
+                        "type": 1,
+                        "val": "3"
+                    },
+                    {
+                        "addr": "0x0106",
+                        "type": 1,
+                        "val": "19"
+                    },
+                    {
+                        "addr": "0x0107",
+                        "type": 1,
+                        "val": "22"
+                    },
+                    {
+                        "addr": "0x0108",
+                        "type": 1,
+                        "val": "22"
+                    },
+                    {
+                        "addr": "0x0109",
+                        "type": 1,
+                        "val": "22"
+                    },
+                    {
+                        "addr": "0x010a",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010b",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010c",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010d",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010e",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010f",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x0110",
+                        "type": 1,
+                        "val": "7102"
+                    },
+                    {
+                        "addr": "0x0111",
+                        "type": 1,
+                        "val": "30533"
+                    },
+                    {
+                        "addr": "0x0113",
+                        "type": 1,
+                        "val": "12865"
+                    },
+                    {
+                        "addr": "0x0114",
+                        "type": 1,
+                        "val": "17732"
+                    },
+                    {
+                        "addr": "0x0115",
+                        "type": 1,
+                        "val": "13874"
+                    },
+                    {
+                        "addr": "0x0116",
+                        "type": 1,
+                        "val": "14134"
+                    },
+                    {
+                        "addr": "0x0117",
+                        "type": 1,
+                        "val": "12336"
+                    },
+                    {
+                        "addr": "0x0118",
+                        "type": 1,
+                        "val": "13378"
+                    },
+                    {
+                        "addr": "0x0119",
+                        "type": 1,
+                        "val": "17974"
+                    },
+                    {
+                        "addr": "0x011a",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x011b",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x011c",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x0000",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0001",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0100",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0101",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0102",
+                        "type": 0,
+                        "val": "9"
+                    },
+                    {
+                        "addr": "0x0103",
+                        "type": 0,
+                        "val": "14976"
+                    },
+                    {
+                        "addr": "0x0104",
+                        "type": 0,
+                        "val": "120"
+                    },
+                    {
+                        "addr": "0x0105",
+                        "type": 0,
+                        "val": "2"
+                    }
+                ]
+            }
+        ]
+    }
+}

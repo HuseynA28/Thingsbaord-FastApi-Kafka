@@ -64,9 +64,10 @@ async def fetch_telemetry_from_device_test(file_name:str, useStrictDataTypes:boo
                     # async with aiofiles.open("data.json", mode="w") as file:
                     #     await file.write(json.dumps(temp_file, indent=4))
                             
-            
+                async with aiofiles.open(f"LatestData/temp_file{device_id}.json", mode="w") as file:
+                        await file.write(json.dumps(temp_file, indent=4))
               
-            return temp_file
+    return file_files_dict
 
 
 

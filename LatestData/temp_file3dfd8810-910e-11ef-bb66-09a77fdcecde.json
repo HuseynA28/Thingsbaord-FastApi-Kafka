@@ -1,0 +1,212 @@
+{
+    "polling": {
+        "deviceid": "58BF25EA1554",
+        "messageid": 211,
+        "datainterval(s)": 60,
+        "statusinterval4(s)": 60,
+        "timestamp": 170488820,
+        "device": [
+            {
+                "slaveadd": "010",
+                "template": "SEN5X",
+                "modbusmap": [
+                    {
+                        "addr": "0x0000",
+                        "type": 1,
+                        "val": "1"
+                    },
+                    {
+                        "addr": "0x0001",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0002",
+                        "type": 1,
+                        "val": "547"
+                    },
+                    {
+                        "addr": "0x0100",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0101",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0102",
+                        "type": 1,
+                        "val": "12"
+                    },
+                    {
+                        "addr": "0x0103",
+                        "type": 1,
+                        "val": "16"
+                    },
+                    {
+                        "addr": "0x0104",
+                        "type": 1,
+                        "val": "19"
+                    },
+                    {
+                        "addr": "0x0105",
+                        "type": 1,
+                        "val": "20"
+                    },
+                    {
+                        "addr": "0x0106",
+                        "type": 1,
+                        "val": "70"
+                    },
+                    {
+                        "addr": "0x0107",
+                        "type": 1,
+                        "val": "89"
+                    },
+                    {
+                        "addr": "0x0108",
+                        "type": 1,
+                        "val": "92"
+                    },
+                    {
+                        "addr": "0x0109",
+                        "type": 1,
+                        "val": "93"
+                    },
+                    {
+                        "addr": "0x010a",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010b",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010c",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010d",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010e",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x010f",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x0110",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0111",
+                        "type": 1,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0113",
+                        "type": 1,
+                        "val": "14134"
+                    },
+                    {
+                        "addr": "0x0114",
+                        "type": 1,
+                        "val": "16709"
+                    },
+                    {
+                        "addr": "0x0115",
+                        "type": 1,
+                        "val": "16689"
+                    },
+                    {
+                        "addr": "0x0116",
+                        "type": 1,
+                        "val": "17477"
+                    },
+                    {
+                        "addr": "0x0117",
+                        "type": 1,
+                        "val": "13364"
+                    },
+                    {
+                        "addr": "0x0118",
+                        "type": 1,
+                        "val": "16689"
+                    },
+                    {
+                        "addr": "0x0119",
+                        "type": 1,
+                        "val": "13125"
+                    },
+                    {
+                        "addr": "0x011a",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x011b",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x011c",
+                        "type": 1,
+                        "val": null
+                    },
+                    {
+                        "addr": "0x0000",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0001",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0100",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0101",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0102",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0103",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0104",
+                        "type": 0,
+                        "val": "0"
+                    },
+                    {
+                        "addr": "0x0105",
+                        "type": 0,
+                        "val": "0"
+                    }
+                ]
+            }
+        ]
+    }
+}

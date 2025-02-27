@@ -10,7 +10,7 @@ from auth import oauth2_scheme
 from services.customer import get_customer_info
 from services.device import get_device_details
 from services.telemerty import fetch_telemetry_from_device
-from services.telemerty_test import fetch_telemetry_from_device_test
+from services.telemerty_test_copy import fetch_telemetry_from_device_test
 from config import BASE_URL
 from typing import Dict
 
