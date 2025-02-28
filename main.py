@@ -13,9 +13,11 @@ from services.telemerty import fetch_telemetry_from_device
 from services.telemerty_test_copy import fetch_telemetry_from_device_test
 from config import BASE_URL
 from typing import Dict
-
+from services.get_all_devices import getAllDevices
 app = FastAPI()
 page_size=10000000,
+page=0
+
 class TokenResponse(BaseModel):
     access_token: str
     token_type: str
@@ -81,26 +83,28 @@ async def get_customer_details_endpoint(
         save_dataframe=save_dataframe
     )
     
+@app.get("/ChooseRandomDevices/")
+
+async def get_devices(
+    token: Annotated[str, Depends(oauth2_scheme)],
+    pageSize: int = Query(100, description="The parallel execution limit per call is set to 100. Do not change this unless you have a specific reason."),
+    dataFrameName: str = Query(..., description="Specify the name of the DataFrame where device information will be stored. The data is saved in the 'AllDevices' folder. Be cautious—if you do not change the name, the file will be overwritten, and you may lose previous data.")
+):
+    return await getAllDevices(
+        page=page,
+        token=token,
+        page_size=pageSize,
+        dataFrameName=dataFrameName
+    )
+
     
+
+
 @app.get("/Metamorphosis/")
 
 async def send_message(
     token: Annotated[str, Depends(oauth2_scheme)],
-    file_name: str = Query(..., description="Write the name of file  that  you saved"),
-    useStrictDataTypes: bool = Query(False, description="Enables/disables conversion of telemetry values to strings. Set parameter to 'true' in order to disable the conversion."),
-    ):
-    return await fetch_telemetry_from_device(
-    token=token,
-    file_name=file_name,
-    useStrictDataTypes=useStrictDataTypes
-
-)
-
-@app.get("/Metamorphosis/testMe")
-
-async def send_message(
-    token: Annotated[str, Depends(oauth2_scheme)],
-    file_name: str = Query(..., description="Write the name of file  that  you saved"),
+    file_name: str = Query(..., description="Write the name of file  that  you saved. This  file is in Datasets folder and name of the file is temp.csv if you have not save one with different name "),
     useStrictDataTypes: bool = Query(False, description="Enables/disables conversion of telemetry values to strings. Set parameter to 'true' in order to disable the conversion."),
     ):
     return await fetch_telemetry_from_device_test(

@@ -8,6 +8,7 @@ if not BASE_URL:
     raise ValueError("BASE_URL environment variable is not set")
 
 DATAFRAME_OUTPUT_PATH = f"{cwd}/DataFrame/"
+DATAFRAME_ALL_DEVICES = f"{cwd}/AllDevices/"
 
 
 
