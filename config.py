@@ -9,6 +9,7 @@ if not BASE_URL:
 
 DATAFRAME_OUTPUT_PATH = f"{cwd}/DataFrame/"
 DATAFRAME_ALL_DEVICES = f"{cwd}/AllDevices/"
+DATAFRAME_RANDOM_DEVICES = f"{cwd}/RandomDevices/"
 
 
 

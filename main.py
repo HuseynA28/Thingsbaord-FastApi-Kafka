@@ -11,6 +11,8 @@ from services.customer import get_customer_info
 from services.device import get_device_details
 from services.telemerty import fetch_telemetry_from_device
 from services.telemerty_test_copy import fetch_telemetry_from_device_test
+
+from services.chooseRandomDevice import   RandomDevice
 from config import BASE_URL
 from typing import Dict
 from services.get_all_devices import getAllDevices
@@ -83,22 +85,34 @@ async def get_customer_details_endpoint(
         save_dataframe=save_dataframe
     )
     
-@app.get("/ChooseRandomDevices/")
-
+@app.get("/GetAllDeviceInfo/")
 async def get_devices(
     token: Annotated[str, Depends(oauth2_scheme)],
-    pageSize: int = Query(100, description="The parallel execution limit per call is set to 100. Do not change this unless you have a specific reason."),
-    dataFrameName: str = Query(..., description="Specify the name of the DataFrame where device information will be stored. The data is saved in the 'AllDevices' folder. Be cautious—if you do not change the name, the file will be overwritten, and you may lose previous data.")
+    pageSize: int = Query(100, description="..."),
+    saveAsDataFrame: str = Query(..., description="...")
 ):
     return await getAllDevices(
-        page=page,
-        token=token,
         page_size=pageSize,
-        dataFrameName=dataFrameName
+        token=token,
+        dataFrameName=saveAsDataFrame
     )
-
     
-
+@app.get("/ChooseRandomDevice/")
+async def get_randomDevice(
+    token: Annotated[str, Depends(oauth2_scheme)],
+    FromDataFrame:str = Query(..., description="..."),
+    deviceNumber: int = Query(100, description="..."),
+    SaveAsDataFrame: str = Query(..., description="Give name for the dataframe that it will be saved in Random Devices folder "),
+    getAll :bool = Query(False, description="If you have a lot of  the data it can take some time . We trust in God of paralization")
+):
+    return await RandomDevice(
+        deviceNumber=deviceNumber,
+        FromDataFrame=FromDataFrame,
+        token=token,
+        SaveAsDataFrame=SaveAsDataFrame,
+        getAll=getAll
+    )
+    
 
 @app.get("/Metamorphosis/")
 
