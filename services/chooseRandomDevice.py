@@ -15,13 +15,11 @@ async def get_keys(client: httpx.AsyncClient, header: dict, entityID: str):
     response = await client.get(all_keys, headers=header)
     response.raise_for_status()
     data = response.json()
-    one_device_keys = pl.DataFrame({"key": data})
-    # one_device_keys = one_device_keys.with_columns(
-    #     pl.when(pl.col("key").str.contains(r"^[0-9A-Fa-f]{4}$"))
-    #     .then(pl.lit("Modbus"))
-    #     .otherwise(pl.lit("Non-Modbus"))
-    #     .alias("category")
-    # )
+    one_device_keys = pl.DataFrame({"key": data}, schema={"key": pl.String})
+    one_device_keys = one_device_keys.filter(
+        pl.col("key").is_not_null() & pl.col("key").str.contains(r"^[0-9A-Fa-f]{4}$")
+    )
+
     
     return one_device_keys
 
