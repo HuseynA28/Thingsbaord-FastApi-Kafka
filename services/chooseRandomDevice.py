@@ -7,12 +7,22 @@ from fastapi import HTTPException
 from config import BASE_URL, DATAFRAME_ALL_DEVICES, DATAFRAME_OUTPUT_PATH, DATAFRAME_RANDOM_DEVICES
 
 
-async def get_keys(client: httpx.AsyncClient, header: dict, entityID:str):
+import polars as pl
+from urllib.parse import urljoin  # Assuming this is needed for BASE_URL
+
+async def get_keys(client: httpx.AsyncClient, header: dict, entityID: str):
     all_keys = urljoin(BASE_URL, f"/api/plugins/telemetry/DEVICE/{entityID}/keys/timeseries")
     response = await client.get(all_keys, headers=header)
     response.raise_for_status()
     data = response.json()
-    one_device_keys = pl.DataFrame(data, schema=["keys"])
+    one_device_keys = pl.DataFrame({"key": data})
+    # one_device_keys = one_device_keys.with_columns(
+    #     pl.when(pl.col("key").str.contains(r"^[0-9A-Fa-f]{4}$"))
+    #     .then(pl.lit("Modbus"))
+    #     .otherwise(pl.lit("Non-Modbus"))
+    #     .alias("category")
+    # )
+    
     return one_device_keys
 
 
